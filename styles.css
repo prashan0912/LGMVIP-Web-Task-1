@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: auto;
+    margin-top: 1%;
+}
+
+body {
+    background: linear-gradient(335deg, rgb(177, 237, 122) 0%, rgb(224, 239, 183) 100%);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #64f32c;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    background-color: #f8ee2a;
+    padding: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+.button {
+    border-radius: 5px;
+    background-color: #ffad81;
+    font-variant: normal;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 8px;
+    border: crimson;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+    border-color: rgb(179, 255, 0);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.task {
+    color: #30bddd;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+.task-important {
+    background-color: #f8ee2a;
+}
+
+.task-medium {
+    background-color: #008080;
+}
+
+.task-normal {
+    background-color: #ff007f;
+}
